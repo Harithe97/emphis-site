@@ -8,11 +8,10 @@
 }
 
 @font-face {
-  font-display: swap;
   font-family: 'Audiowide';
   src: url('fonts/Audiowide/Audiowide-Regular.ttf');
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 body {
@@ -33,7 +32,7 @@ a:focus, button:focus {
     outline: none;
 }
 
-header {
+.main-header {
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -130,14 +129,12 @@ li {
     font-weight: bold;
 }
 
-footer {
+.footer {
     margin-top: 3rem;
     text-align: center;
     font-size: 0.9rem;
     color: var(--color-text-footer);
 }
-
-#bienvenue {}
 
 .menu-list {
     display: flex;
